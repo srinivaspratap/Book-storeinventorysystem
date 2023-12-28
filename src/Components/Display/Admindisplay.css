@@ -1,0 +1,106 @@
+/* Admindisplay.css */
+
+.admin-display-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  label {
+    display: block;
+    margin-top: 10px;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #4CAF50;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+    color: #45a049;
+  }
+  
+  /* Add FontAwesome icons to buttons */
+  button[aria-label="Search"]::before {
+    content: "\f002"; /* FontAwesome search icon */
+    font-family: "Font Awesome 5 Free";
+    margin-right: 5px;
+  }
+  
+  button[aria-label="Clear Search"]::before {
+    content: "\f00d"; /* FontAwesome times icon */
+    font-family: "Font Awesome 5 Free";
+    margin-right: 5px;
+  }
+  
+  button[aria-label="Add"]::before {
+    content: "\f067"; /* FontAwesome plus icon */
+    font-family: "Font Awesome 5 Free";
+    margin-right: 5px;
+  }
+  
+  button[aria-label="Read"]::before {
+    content: "\f06e"; /* FontAwesome book icon */
+    font-family: "Font Awesome 5 Free";
+    margin-right: 5px;
+  }
+  
+  button[aria-label="Update"]::before {
+    content: "\f044"; /* FontAwesome pencil icon */
+    font-family: "Font Awesome 5 Free";
+    margin-right: 5px;
+  }
+  
+  button[aria-label="Delete"]::before {
+    content: "\f2ed"; /* FontAwesome trash icon */
+    font-family: "Font Awesome 5 Free";
+    margin-right: 5px;
+  }
+  
